@@ -1,1 +1,12 @@
 @import "tailwindcss";
+
+body{
+  background: linear-gradient(to right, rgb(199, 210, 254), rgb(254, 202, 202), rgb(254, 249, 195));
+  height: 100vh;
+}
+
+@theme {
+  --color-primary: #19183B;
+  --color-title: #101010; 
+  --color-text: #181818;
+}
